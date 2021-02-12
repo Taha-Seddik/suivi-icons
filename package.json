@@ -22,7 +22,7 @@
     "test:watch": "react-scripts test --env=jsdom",
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build",
-    "svgr": "svgr -d src/ svg-icons/ --typescript --icon --replace-attr-values \"#323232=currentColor\""
+    "svgr": "svgr -d src/icons svg-icons/ --typescript --icon --replace-attr-values \"#323232=currentColor\""
   },
   "peerDependencies": {
     "react": "^16.0.0"
