@@ -23,7 +23,7 @@ const Example:React.FC = () => {
 }
 ```
 
-## Dynamic usage example ( with string iconId)
+## Dynamic usage example (with iconId)
 
 ```tsx
 import { IconItem } from 'suivi-icons'
