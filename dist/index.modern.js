@@ -1,4 +1,4 @@
-import { createElement } from 'react';
+import { createElement, cloneElement } from 'react';
 
 function SvgAlarmclocktime(props) {
   return createElement("svg", Object.assign({
@@ -3187,5 +3187,185 @@ function SvgLoudStorage(props) {
   }));
 }
 
-export { SvgAlarmclocktime as Alarmclocktime, SvgAnchor as Anchor, SvgArrow as Arrow, SvgArrow2 as Arrow2, SvgArrowForward as ArrowForward, SvgAttachmentLink as AttachmentLink, SvgAttachmentLink5 as AttachmentLink5, SvgBanana as Banana, SvgBasketPack as BasketPack, SvgBatteryEectricity as BatteryEectricity, SvgBeachUmbrella as BeachUmbrella, SvgBellNotifications7 as BellNotifications7, SvgBellNotificationsSquare as BellNotificationsSquare, SvgBikebicycle as Bikebicycle, SvgBlackboardchart as Blackboardchart, SvgBoardtextchartgraph as Boardtextchartgraph, SvgBookOpen as BookOpen, SvgBookmarkslabeltag as Bookmarkslabeltag, SvgBroom as Broom, SvgBulletListText2 as BulletListText2, SvgCakepiece as Cakepiece, SvgCalendarSchedule as CalendarSchedule, SvgCalendarSchedule9 as CalendarSchedule9, SvgCameraPhoto as CameraPhoto, SvgCat as Cat, SvgChatMessagesBubble9 as ChatMessagesBubble9, SvgChecklistTasksChechmarkSquare as ChecklistTasksChechmarkSquare, SvgCheckmarkdonecheck5 as Checkmarkdonecheck5, SvgChefGearHat as ChefGearHat, SvgCoffeecup as Coffeecup, SvgCompassMap as CompassMap, SvgCryptoCurrency22 as CryptoCurrency22, SvgCursorSelectHand3 as CursorSelectHand3, SvgDashboardround as Dashboardround, SvgDeliveryTruckFast as DeliveryTruckFast, SvgDirectionArrow as DirectionArrow, SvgDirectionArrowRoad as DirectionArrowRoad, SvgDocumentContentNotesPlanner as DocumentContentNotesPlanner, SvgDollar2 as Dollar2, SvgDotsMenu as DotsMenu, SvgDressFashionWedding as DressFashionWedding, SvgEarthHomeWorld22 as EarthHomeWorld22, SvgFileImport as FileImport, SvgFilterSortAZ1 as FilterSortAZ1, SvgFilterSortCircle1 as FilterSortCircle1, SvgFlag1 as Flag1, SvgFlashlight as Flashlight, SvgFolderGroup5 as FolderGroup5, SvgGiftBox1 as GiftBox1, SvgGridLayout as GridLayout, SvgGridLayout14 as GridLayout14, SvgGridLayout17 as GridLayout17, SvgGroupUser1 as GroupUser1, SvgHashtagTrends as HashtagTrends, SvgHeartbeat2 as Heartbeat2, SvgHeartfavorite as Heartfavorite, SvgHexagonube as HexagonСube, SvgHierarchy4 as Hierarchy4, SvgHorntrumpet as Horntrumpet, SvgHospitalboardsquare as Hospitalboardsquare, SvgHotelBuilding as HotelBuilding, SvgJacket as Jacket, SvgKey5 as Key5, SvgLampspark as Lampspark, SvgLegalfrictiontalkusers as Legalfrictiontalkusers, SvgLegofigurehead as Legofigurehead, SvgLighthouse as Lighthouse, SvgLinkAttachmentSquare as LinkAttachmentSquare, SvgLoading as Loading, SvgLock8 as Lock8, SvgLtesignal as Ltesignal, SvgMagicwand as Magicwand, SvgMapLocationCheckmark as MapLocationCheckmark, SvgMarkerpin2 as Markerpin2, SvgMedalPrizeReward as MedalPrizeReward, SvgMedicalcross1 as Medicalcross1, SvgMessagesChat5 as MessagesChat5, SvgMicrophonemicrec as Microphonemicrec, SvgMoney as Money, SvgMoneyEuro as MoneyEuro, SvgNote1 as Note1, SvgNotebookCheckmark as NotebookCheckmark, SvgPaintingpalette as Paintingpalette, SvgPatch as Patch, SvgPenEdit as PenEdit, SvgPenedit17 as Penedit17, SvgPinbig as Pinbig, SvgPinlocation as Pinlocation, SvgPlane as Plane, SvgPlanetsaturn as Planetsaturn, SvgPositiontarget as Positiontarget, SvgPromotionRocket as PromotionRocket, SvgPuzzle1 as Puzzle1, SvgQuestionCircle as QuestionCircle, SvgRIng as RIng, SvgRecicle1 as Recicle1, SvgRibbontie as Ribbontie, SvgScaleToolMove as ScaleToolMove, SvgSeafoodfish as Seafoodfish, SvgSearch1 as Search1, SvgSearchLoupe as SearchLoupe, SvgSearchLoupeGraphTrafficConversion as SearchLoupeGraphTrafficConversion, SvgSearchloup1 as Searchloup1, SvgSearchradarlocation1 as Searchradarlocation1, SvgServerDatabasesExport as ServerDatabasesExport, SvgSetting3 as Setting3, SvgSettings1 as Settings1, SvgSettingsRound as SettingsRound, SvgShareArrowSquare1 as ShareArrowSquare1, SvgSignal1 as Signal1, SvgSneakers as Sneakers, SvgSnow as Snow, SvgSofaChair as SofaChair, SvgSpacestars as Spacestars, SvgSpaceufospacealiens as Spaceufospacealiens, SvgSpeeddashboard as Speeddashboard, SvgStarFavorite as StarFavorite, SvgStarFavoriteBookmarkSquare as StarFavoriteBookmarkSquare, SvgStore as Store, SvgSunSeaSunrise as SunSeaSunrise, SvgTargetgoal as Targetgoal, SvgTelescope as Telescope, SvgTemperature as Temperature, SvgThumbsUpLikeSquare as ThumbsUpLikeSquare, SvgToolshammer as Toolshammer, SvgTrashDeleteBin as TrashDeleteBin, SvgUserProfile2 as UserProfile2, SvgVolumeFull as VolumeFull, SvgWarningmark as Warningmark, SvgWatchAppleWatch as WatchAppleWatch, SvgWatchclock as Watchclock, SvgWatchclocktime1 as Watchclocktime1, SvgYoutube as Youtube, SvgLoudStorage as СloudStorage };
+
+
+var icons = {
+  __proto__: null,
+  Alarmclocktime: SvgAlarmclocktime,
+  Anchor: SvgAnchor,
+  Arrow2: SvgArrow2,
+  Arrow: SvgArrow,
+  ArrowForward: SvgArrowForward,
+  AttachmentLink5: SvgAttachmentLink5,
+  AttachmentLink: SvgAttachmentLink,
+  Banana: SvgBanana,
+  BasketPack: SvgBasketPack,
+  BatteryEectricity: SvgBatteryEectricity,
+  BeachUmbrella: SvgBeachUmbrella,
+  BellNotificationsSquare: SvgBellNotificationsSquare,
+  BellNotifications7: SvgBellNotifications7,
+  Bikebicycle: SvgBikebicycle,
+  Blackboardchart: SvgBlackboardchart,
+  Boardtextchartgraph: SvgBoardtextchartgraph,
+  Bookmarkslabeltag: SvgBookmarkslabeltag,
+  BookOpen: SvgBookOpen,
+  Broom: SvgBroom,
+  BulletListText2: SvgBulletListText2,
+  Cakepiece: SvgCakepiece,
+  CalendarSchedule9: SvgCalendarSchedule9,
+  CalendarSchedule: SvgCalendarSchedule,
+  CameraPhoto: SvgCameraPhoto,
+  Cat: SvgCat,
+  ChatMessagesBubble9: SvgChatMessagesBubble9,
+  ChecklistTasksChechmarkSquare: SvgChecklistTasksChechmarkSquare,
+  Checkmarkdonecheck5: SvgCheckmarkdonecheck5,
+  ChefGearHat: SvgChefGearHat,
+  Coffeecup: SvgCoffeecup,
+  CompassMap: SvgCompassMap,
+  CryptoCurrency22: SvgCryptoCurrency22,
+  CursorSelectHand3: SvgCursorSelectHand3,
+  Dashboardround: SvgDashboardround,
+  DeliveryTruckFast: SvgDeliveryTruckFast,
+  DirectionArrow: SvgDirectionArrow,
+  DirectionArrowRoad: SvgDirectionArrowRoad,
+  DocumentContentNotesPlanner: SvgDocumentContentNotesPlanner,
+  Dollar2: SvgDollar2,
+  DotsMenu: SvgDotsMenu,
+  DressFashionWedding: SvgDressFashionWedding,
+  EarthHomeWorld22: SvgEarthHomeWorld22,
+  FileImport: SvgFileImport,
+  FilterSortAZ1: SvgFilterSortAZ1,
+  FilterSortCircle1: SvgFilterSortCircle1,
+  Flag1: SvgFlag1,
+  Flashlight: SvgFlashlight,
+  FolderGroup5: SvgFolderGroup5,
+  GiftBox1: SvgGiftBox1,
+  GridLayout14: SvgGridLayout14,
+  GridLayout17: SvgGridLayout17,
+  GridLayout: SvgGridLayout,
+  GroupUser1: SvgGroupUser1,
+  HashtagTrends: SvgHashtagTrends,
+  Heartbeat2: SvgHeartbeat2,
+  Heartfavorite: SvgHeartfavorite,
+  HexagonСube: SvgHexagonube,
+  Hierarchy4: SvgHierarchy4,
+  Horntrumpet: SvgHorntrumpet,
+  Hospitalboardsquare: SvgHospitalboardsquare,
+  HotelBuilding: SvgHotelBuilding,
+  Jacket: SvgJacket,
+  Key5: SvgKey5,
+  Lampspark: SvgLampspark,
+  Legalfrictiontalkusers: SvgLegalfrictiontalkusers,
+  Legofigurehead: SvgLegofigurehead,
+  Lighthouse: SvgLighthouse,
+  LinkAttachmentSquare: SvgLinkAttachmentSquare,
+  Loading: SvgLoading,
+  Lock8: SvgLock8,
+  Ltesignal: SvgLtesignal,
+  Magicwand: SvgMagicwand,
+  MapLocationCheckmark: SvgMapLocationCheckmark,
+  Markerpin2: SvgMarkerpin2,
+  MedalPrizeReward: SvgMedalPrizeReward,
+  Medicalcross1: SvgMedicalcross1,
+  MessagesChat5: SvgMessagesChat5,
+  Microphonemicrec: SvgMicrophonemicrec,
+  Money: SvgMoney,
+  MoneyEuro: SvgMoneyEuro,
+  Note1: SvgNote1,
+  NotebookCheckmark: SvgNotebookCheckmark,
+  Paintingpalette: SvgPaintingpalette,
+  Patch: SvgPatch,
+  PenEdit: SvgPenEdit,
+  Penedit17: SvgPenedit17,
+  Pinbig: SvgPinbig,
+  Pinlocation: SvgPinlocation,
+  Plane: SvgPlane,
+  Planetsaturn: SvgPlanetsaturn,
+  Positiontarget: SvgPositiontarget,
+  PromotionRocket: SvgPromotionRocket,
+  Puzzle1: SvgPuzzle1,
+  QuestionCircle: SvgQuestionCircle,
+  Recicle1: SvgRecicle1,
+  Ribbontie: SvgRibbontie,
+  RIng: SvgRIng,
+  ScaleToolMove: SvgScaleToolMove,
+  Seafoodfish: SvgSeafoodfish,
+  SearchLoupe: SvgSearchLoupe,
+  Search1: SvgSearch1,
+  Searchloup1: SvgSearchloup1,
+  SearchLoupeGraphTrafficConversion: SvgSearchLoupeGraphTrafficConversion,
+  Searchradarlocation1: SvgSearchradarlocation1,
+  ServerDatabasesExport: SvgServerDatabasesExport,
+  Setting3: SvgSetting3,
+  SettingsRound: SvgSettingsRound,
+  Settings1: SvgSettings1,
+  ShareArrowSquare1: SvgShareArrowSquare1,
+  Signal1: SvgSignal1,
+  Sneakers: SvgSneakers,
+  Snow: SvgSnow,
+  SofaChair: SvgSofaChair,
+  Spacestars: SvgSpacestars,
+  Spaceufospacealiens: SvgSpaceufospacealiens,
+  Speeddashboard: SvgSpeeddashboard,
+  StarFavoriteBookmarkSquare: SvgStarFavoriteBookmarkSquare,
+  StarFavorite: SvgStarFavorite,
+  Store: SvgStore,
+  SunSeaSunrise: SvgSunSeaSunrise,
+  Targetgoal: SvgTargetgoal,
+  Telescope: SvgTelescope,
+  Temperature: SvgTemperature,
+  ThumbsUpLikeSquare: SvgThumbsUpLikeSquare,
+  Toolshammer: SvgToolshammer,
+  TrashDeleteBin: SvgTrashDeleteBin,
+  UserProfile2: SvgUserProfile2,
+  VolumeFull: SvgVolumeFull,
+  Warningmark: SvgWarningmark,
+  WatchAppleWatch: SvgWatchAppleWatch,
+  Watchclock: SvgWatchclock,
+  Watchclocktime1: SvgWatchclocktime1,
+  Youtube: SvgYoutube,
+  СloudStorage: SvgLoudStorage
+};
+
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
+var IconItem = function IconItem(props) {
+  var iconId = props.iconId,
+      extraProps = _objectWithoutPropertiesLoose(props, ["iconId"]);
+
+  return cloneElement(icons[iconId], _extends({}, extraProps));
+};
+
+export { SvgAlarmclocktime as Alarmclocktime, SvgAnchor as Anchor, SvgArrow as Arrow, SvgArrow2 as Arrow2, SvgArrowForward as ArrowForward, SvgAttachmentLink as AttachmentLink, SvgAttachmentLink5 as AttachmentLink5, SvgBanana as Banana, SvgBasketPack as BasketPack, SvgBatteryEectricity as BatteryEectricity, SvgBeachUmbrella as BeachUmbrella, SvgBellNotifications7 as BellNotifications7, SvgBellNotificationsSquare as BellNotificationsSquare, SvgBikebicycle as Bikebicycle, SvgBlackboardchart as Blackboardchart, SvgBoardtextchartgraph as Boardtextchartgraph, SvgBookOpen as BookOpen, SvgBookmarkslabeltag as Bookmarkslabeltag, SvgBroom as Broom, SvgBulletListText2 as BulletListText2, SvgCakepiece as Cakepiece, SvgCalendarSchedule as CalendarSchedule, SvgCalendarSchedule9 as CalendarSchedule9, SvgCameraPhoto as CameraPhoto, SvgCat as Cat, SvgChatMessagesBubble9 as ChatMessagesBubble9, SvgChecklistTasksChechmarkSquare as ChecklistTasksChechmarkSquare, SvgCheckmarkdonecheck5 as Checkmarkdonecheck5, SvgChefGearHat as ChefGearHat, SvgCoffeecup as Coffeecup, SvgCompassMap as CompassMap, SvgCryptoCurrency22 as CryptoCurrency22, SvgCursorSelectHand3 as CursorSelectHand3, SvgDashboardround as Dashboardround, SvgDeliveryTruckFast as DeliveryTruckFast, SvgDirectionArrow as DirectionArrow, SvgDirectionArrowRoad as DirectionArrowRoad, SvgDocumentContentNotesPlanner as DocumentContentNotesPlanner, SvgDollar2 as Dollar2, SvgDotsMenu as DotsMenu, SvgDressFashionWedding as DressFashionWedding, SvgEarthHomeWorld22 as EarthHomeWorld22, SvgFileImport as FileImport, SvgFilterSortAZ1 as FilterSortAZ1, SvgFilterSortCircle1 as FilterSortCircle1, SvgFlag1 as Flag1, SvgFlashlight as Flashlight, SvgFolderGroup5 as FolderGroup5, SvgGiftBox1 as GiftBox1, SvgGridLayout as GridLayout, SvgGridLayout14 as GridLayout14, SvgGridLayout17 as GridLayout17, SvgGroupUser1 as GroupUser1, SvgHashtagTrends as HashtagTrends, SvgHeartbeat2 as Heartbeat2, SvgHeartfavorite as Heartfavorite, SvgHexagonube as HexagonСube, SvgHierarchy4 as Hierarchy4, SvgHorntrumpet as Horntrumpet, SvgHospitalboardsquare as Hospitalboardsquare, SvgHotelBuilding as HotelBuilding, IconItem, SvgJacket as Jacket, SvgKey5 as Key5, SvgLampspark as Lampspark, SvgLegalfrictiontalkusers as Legalfrictiontalkusers, SvgLegofigurehead as Legofigurehead, SvgLighthouse as Lighthouse, SvgLinkAttachmentSquare as LinkAttachmentSquare, SvgLoading as Loading, SvgLock8 as Lock8, SvgLtesignal as Ltesignal, SvgMagicwand as Magicwand, SvgMapLocationCheckmark as MapLocationCheckmark, SvgMarkerpin2 as Markerpin2, SvgMedalPrizeReward as MedalPrizeReward, SvgMedicalcross1 as Medicalcross1, SvgMessagesChat5 as MessagesChat5, SvgMicrophonemicrec as Microphonemicrec, SvgMoney as Money, SvgMoneyEuro as MoneyEuro, SvgNote1 as Note1, SvgNotebookCheckmark as NotebookCheckmark, SvgPaintingpalette as Paintingpalette, SvgPatch as Patch, SvgPenEdit as PenEdit, SvgPenedit17 as Penedit17, SvgPinbig as Pinbig, SvgPinlocation as Pinlocation, SvgPlane as Plane, SvgPlanetsaturn as Planetsaturn, SvgPositiontarget as Positiontarget, SvgPromotionRocket as PromotionRocket, SvgPuzzle1 as Puzzle1, SvgQuestionCircle as QuestionCircle, SvgRIng as RIng, SvgRecicle1 as Recicle1, SvgRibbontie as Ribbontie, SvgScaleToolMove as ScaleToolMove, SvgSeafoodfish as Seafoodfish, SvgSearch1 as Search1, SvgSearchLoupe as SearchLoupe, SvgSearchLoupeGraphTrafficConversion as SearchLoupeGraphTrafficConversion, SvgSearchloup1 as Searchloup1, SvgSearchradarlocation1 as Searchradarlocation1, SvgServerDatabasesExport as ServerDatabasesExport, SvgSetting3 as Setting3, SvgSettings1 as Settings1, SvgSettingsRound as SettingsRound, SvgShareArrowSquare1 as ShareArrowSquare1, SvgSignal1 as Signal1, SvgSneakers as Sneakers, SvgSnow as Snow, SvgSofaChair as SofaChair, SvgSpacestars as Spacestars, SvgSpaceufospacealiens as Spaceufospacealiens, SvgSpeeddashboard as Speeddashboard, SvgStarFavorite as StarFavorite, SvgStarFavoriteBookmarkSquare as StarFavoriteBookmarkSquare, SvgStore as Store, SvgSunSeaSunrise as SunSeaSunrise, SvgTargetgoal as Targetgoal, SvgTelescope as Telescope, SvgTemperature as Temperature, SvgThumbsUpLikeSquare as ThumbsUpLikeSquare, SvgToolshammer as Toolshammer, SvgTrashDeleteBin as TrashDeleteBin, SvgUserProfile2 as UserProfile2, SvgVolumeFull as VolumeFull, SvgWarningmark as Warningmark, SvgWatchAppleWatch as WatchAppleWatch, SvgWatchclock as Watchclock, SvgWatchclocktime1 as Watchclocktime1, SvgYoutube as Youtube, SvgLoudStorage as СloudStorage };
 //# sourceMappingURL=index.modern.js.map

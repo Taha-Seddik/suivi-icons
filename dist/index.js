@@ -3187,6 +3187,186 @@ function SvgLoudStorage(props) {
   }));
 }
 
+
+
+var icons = {
+  __proto__: null,
+  Alarmclocktime: SvgAlarmclocktime,
+  Anchor: SvgAnchor,
+  Arrow2: SvgArrow2,
+  Arrow: SvgArrow,
+  ArrowForward: SvgArrowForward,
+  AttachmentLink5: SvgAttachmentLink5,
+  AttachmentLink: SvgAttachmentLink,
+  Banana: SvgBanana,
+  BasketPack: SvgBasketPack,
+  BatteryEectricity: SvgBatteryEectricity,
+  BeachUmbrella: SvgBeachUmbrella,
+  BellNotificationsSquare: SvgBellNotificationsSquare,
+  BellNotifications7: SvgBellNotifications7,
+  Bikebicycle: SvgBikebicycle,
+  Blackboardchart: SvgBlackboardchart,
+  Boardtextchartgraph: SvgBoardtextchartgraph,
+  Bookmarkslabeltag: SvgBookmarkslabeltag,
+  BookOpen: SvgBookOpen,
+  Broom: SvgBroom,
+  BulletListText2: SvgBulletListText2,
+  Cakepiece: SvgCakepiece,
+  CalendarSchedule9: SvgCalendarSchedule9,
+  CalendarSchedule: SvgCalendarSchedule,
+  CameraPhoto: SvgCameraPhoto,
+  Cat: SvgCat,
+  ChatMessagesBubble9: SvgChatMessagesBubble9,
+  ChecklistTasksChechmarkSquare: SvgChecklistTasksChechmarkSquare,
+  Checkmarkdonecheck5: SvgCheckmarkdonecheck5,
+  ChefGearHat: SvgChefGearHat,
+  Coffeecup: SvgCoffeecup,
+  CompassMap: SvgCompassMap,
+  CryptoCurrency22: SvgCryptoCurrency22,
+  CursorSelectHand3: SvgCursorSelectHand3,
+  Dashboardround: SvgDashboardround,
+  DeliveryTruckFast: SvgDeliveryTruckFast,
+  DirectionArrow: SvgDirectionArrow,
+  DirectionArrowRoad: SvgDirectionArrowRoad,
+  DocumentContentNotesPlanner: SvgDocumentContentNotesPlanner,
+  Dollar2: SvgDollar2,
+  DotsMenu: SvgDotsMenu,
+  DressFashionWedding: SvgDressFashionWedding,
+  EarthHomeWorld22: SvgEarthHomeWorld22,
+  FileImport: SvgFileImport,
+  FilterSortAZ1: SvgFilterSortAZ1,
+  FilterSortCircle1: SvgFilterSortCircle1,
+  Flag1: SvgFlag1,
+  Flashlight: SvgFlashlight,
+  FolderGroup5: SvgFolderGroup5,
+  GiftBox1: SvgGiftBox1,
+  GridLayout14: SvgGridLayout14,
+  GridLayout17: SvgGridLayout17,
+  GridLayout: SvgGridLayout,
+  GroupUser1: SvgGroupUser1,
+  HashtagTrends: SvgHashtagTrends,
+  Heartbeat2: SvgHeartbeat2,
+  Heartfavorite: SvgHeartfavorite,
+  HexagonСube: SvgHexagonube,
+  Hierarchy4: SvgHierarchy4,
+  Horntrumpet: SvgHorntrumpet,
+  Hospitalboardsquare: SvgHospitalboardsquare,
+  HotelBuilding: SvgHotelBuilding,
+  Jacket: SvgJacket,
+  Key5: SvgKey5,
+  Lampspark: SvgLampspark,
+  Legalfrictiontalkusers: SvgLegalfrictiontalkusers,
+  Legofigurehead: SvgLegofigurehead,
+  Lighthouse: SvgLighthouse,
+  LinkAttachmentSquare: SvgLinkAttachmentSquare,
+  Loading: SvgLoading,
+  Lock8: SvgLock8,
+  Ltesignal: SvgLtesignal,
+  Magicwand: SvgMagicwand,
+  MapLocationCheckmark: SvgMapLocationCheckmark,
+  Markerpin2: SvgMarkerpin2,
+  MedalPrizeReward: SvgMedalPrizeReward,
+  Medicalcross1: SvgMedicalcross1,
+  MessagesChat5: SvgMessagesChat5,
+  Microphonemicrec: SvgMicrophonemicrec,
+  Money: SvgMoney,
+  MoneyEuro: SvgMoneyEuro,
+  Note1: SvgNote1,
+  NotebookCheckmark: SvgNotebookCheckmark,
+  Paintingpalette: SvgPaintingpalette,
+  Patch: SvgPatch,
+  PenEdit: SvgPenEdit,
+  Penedit17: SvgPenedit17,
+  Pinbig: SvgPinbig,
+  Pinlocation: SvgPinlocation,
+  Plane: SvgPlane,
+  Planetsaturn: SvgPlanetsaturn,
+  Positiontarget: SvgPositiontarget,
+  PromotionRocket: SvgPromotionRocket,
+  Puzzle1: SvgPuzzle1,
+  QuestionCircle: SvgQuestionCircle,
+  Recicle1: SvgRecicle1,
+  Ribbontie: SvgRibbontie,
+  RIng: SvgRIng,
+  ScaleToolMove: SvgScaleToolMove,
+  Seafoodfish: SvgSeafoodfish,
+  SearchLoupe: SvgSearchLoupe,
+  Search1: SvgSearch1,
+  Searchloup1: SvgSearchloup1,
+  SearchLoupeGraphTrafficConversion: SvgSearchLoupeGraphTrafficConversion,
+  Searchradarlocation1: SvgSearchradarlocation1,
+  ServerDatabasesExport: SvgServerDatabasesExport,
+  Setting3: SvgSetting3,
+  SettingsRound: SvgSettingsRound,
+  Settings1: SvgSettings1,
+  ShareArrowSquare1: SvgShareArrowSquare1,
+  Signal1: SvgSignal1,
+  Sneakers: SvgSneakers,
+  Snow: SvgSnow,
+  SofaChair: SvgSofaChair,
+  Spacestars: SvgSpacestars,
+  Spaceufospacealiens: SvgSpaceufospacealiens,
+  Speeddashboard: SvgSpeeddashboard,
+  StarFavoriteBookmarkSquare: SvgStarFavoriteBookmarkSquare,
+  StarFavorite: SvgStarFavorite,
+  Store: SvgStore,
+  SunSeaSunrise: SvgSunSeaSunrise,
+  Targetgoal: SvgTargetgoal,
+  Telescope: SvgTelescope,
+  Temperature: SvgTemperature,
+  ThumbsUpLikeSquare: SvgThumbsUpLikeSquare,
+  Toolshammer: SvgToolshammer,
+  TrashDeleteBin: SvgTrashDeleteBin,
+  UserProfile2: SvgUserProfile2,
+  VolumeFull: SvgVolumeFull,
+  Warningmark: SvgWarningmark,
+  WatchAppleWatch: SvgWatchAppleWatch,
+  Watchclock: SvgWatchclock,
+  Watchclocktime1: SvgWatchclocktime1,
+  Youtube: SvgYoutube,
+  СloudStorage: SvgLoudStorage
+};
+
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
+var IconItem = function IconItem(props) {
+  var iconId = props.iconId,
+      extraProps = _objectWithoutPropertiesLoose(props, ["iconId"]);
+
+  return React.cloneElement(icons[iconId], _extends({}, extraProps));
+};
+
 exports.Alarmclocktime = SvgAlarmclocktime;
 exports.Anchor = SvgAnchor;
 exports.Arrow = SvgArrow;
@@ -3248,6 +3428,7 @@ exports.Hierarchy4 = SvgHierarchy4;
 exports.Horntrumpet = SvgHorntrumpet;
 exports.Hospitalboardsquare = SvgHospitalboardsquare;
 exports.HotelBuilding = SvgHotelBuilding;
+exports.IconItem = IconItem;
 exports.Jacket = SvgJacket;
 exports.Key5 = SvgKey5;
 exports.Lampspark = SvgLampspark;
