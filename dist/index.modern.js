@@ -3327,16 +3327,47 @@ var icons = {
   СloudStorage: SvgLoudStorage
 };
 
-const iconsList = ['Alarmclocktime', 'Anchor', 'Arrow2', 'Arrow', 'ArrowForward', 'AttachmentLink5', 'AttachmentLink', 'Banana', 'BasketPack', 'BatteryEectricity', 'BeachUmbrella', 'BellNotificationsSquare', 'BellNotifications7', 'Bikebicycle', 'Blackboardchart', 'Boardtextchartgraph', 'Bookmarkslabeltag', 'BookOpen', 'Broom', 'BulletListText2', 'Cakepiece', 'CalendarSchedule9', 'CalendarSchedule', 'CameraPhoto', 'Cat', 'ChatMessagesBubble9', 'ChecklistTasksChechmarkSquare', 'Checkmarkdonecheck5', 'ChefGearHat', 'Coffeecup', 'CompassMap', 'CryptoCurrency22', 'CursorSelectHand3', 'Dashboardround', 'DeliveryTruckFast', 'DirectionArrow', 'DirectionArrowRoad', 'DocumentContentNotesPlanner', 'Dollar2', 'DotsMenu', 'DressFashionWedding', 'EarthHomeWorld22', 'FileImport', 'FilterSortAZ1', 'FilterSortCircle1', 'Flag1', 'Flashlight', 'FolderGroup5', 'GiftBox1', 'GridLayout14', 'GridLayout17', 'GridLayout', 'GroupUser1', 'HashtagTrends', 'Heartbeat2', 'Heartfavorite', 'HexagonСube', 'Hierarchy4', 'Horntrumpet', 'Hospitalboardsquare', 'HotelBuilding', 'Jacket', 'Key5', 'Lampspark', 'Legalfrictiontalkusers', 'Legofigurehead', 'Lighthouse', 'LinkAttachmentSquare', 'Loading', 'Lock8', 'Ltesignal', 'Magicwand', 'MapLocationCheckmark', 'Markerpin2', 'MedalPrizeReward', 'Medicalcross1', 'MessagesChat5', 'Microphonemicrec', 'Money', 'MoneyEuro', 'Note1', 'NotebookCheckmark', 'Paintingpalette', 'Patch', 'PenEdit', 'Penedit17', 'Pinbig', 'Pinlocation', 'Plane', 'Planetsaturn', 'Positiontarget', 'PromotionRocket', 'Puzzle1', 'QuestionCircle', 'Recicle1', 'Ribbontie', 'RIng', 'ScaleToolMove', 'Seafoodfish', 'SearchLoupe', 'Search1', 'Searchloup1', 'SearchLoupeGraphTrafficConversion', 'Searchradarlocation1', 'ServerDatabasesExport', 'Setting3', 'SettingsRound', 'Settings1', 'ShareArrowSquare1', 'Signal1', 'Sneakers', 'Snow', 'SofaChair', 'Spacestars', 'Spaceufospacealiens', 'Speeddashboard', 'StarFavoriteBookmarkSquare', 'StarFavorite', 'Store', 'SunSeaSunrise', 'Targetgoal', 'Telescope', 'Temperature', 'ThumbsUpLikeSquare', 'Toolshammer', 'TrashDeleteBin', 'UserProfile2', 'VolumeFull', 'Warningmark', 'WatchAppleWatch', 'Watchclock', 'Watchclocktime1', 'Youtube', 'СloudStorage'];
+var iconsList = ['Alarmclocktime', 'Anchor', 'Arrow2', 'Arrow', 'ArrowForward', 'AttachmentLink5', 'AttachmentLink', 'Banana', 'BasketPack', 'BatteryEectricity', 'BeachUmbrella', 'BellNotificationsSquare', 'BellNotifications7', 'Bikebicycle', 'Blackboardchart', 'Boardtextchartgraph', 'Bookmarkslabeltag', 'BookOpen', 'Broom', 'BulletListText2', 'Cakepiece', 'CalendarSchedule9', 'CalendarSchedule', 'CameraPhoto', 'Cat', 'ChatMessagesBubble9', 'ChecklistTasksChechmarkSquare', 'Checkmarkdonecheck5', 'ChefGearHat', 'Coffeecup', 'CompassMap', 'CryptoCurrency22', 'CursorSelectHand3', 'Dashboardround', 'DeliveryTruckFast', 'DirectionArrow', 'DirectionArrowRoad', 'DocumentContentNotesPlanner', 'Dollar2', 'DotsMenu', 'DressFashionWedding', 'EarthHomeWorld22', 'FileImport', 'FilterSortAZ1', 'FilterSortCircle1', 'Flag1', 'Flashlight', 'FolderGroup5', 'GiftBox1', 'GridLayout14', 'GridLayout17', 'GridLayout', 'GroupUser1', 'HashtagTrends', 'Heartbeat2', 'Heartfavorite', 'HexagonСube', 'Hierarchy4', 'Horntrumpet', 'Hospitalboardsquare', 'HotelBuilding', 'Jacket', 'Key5', 'Lampspark', 'Legalfrictiontalkusers', 'Legofigurehead', 'Lighthouse', 'LinkAttachmentSquare', 'Loading', 'Lock8', 'Ltesignal', 'Magicwand', 'MapLocationCheckmark', 'Markerpin2', 'MedalPrizeReward', 'Medicalcross1', 'MessagesChat5', 'Microphonemicrec', 'Money', 'MoneyEuro', 'Note1', 'NotebookCheckmark', 'Paintingpalette', 'Patch', 'PenEdit', 'Penedit17', 'Pinbig', 'Pinlocation', 'Plane', 'Planetsaturn', 'Positiontarget', 'PromotionRocket', 'Puzzle1', 'QuestionCircle', 'Recicle1', 'Ribbontie', 'RIng', 'ScaleToolMove', 'Seafoodfish', 'SearchLoupe', 'Search1', 'Searchloup1', 'SearchLoupeGraphTrafficConversion', 'Searchradarlocation1', 'ServerDatabasesExport', 'Setting3', 'SettingsRound', 'Settings1', 'ShareArrowSquare1', 'Signal1', 'Sneakers', 'Snow', 'SofaChair', 'Spacestars', 'Spaceufospacealiens', 'Speeddashboard', 'StarFavoriteBookmarkSquare', 'StarFavorite', 'Store', 'SunSeaSunrise', 'Targetgoal', 'Telescope', 'Temperature', 'ThumbsUpLikeSquare', 'Toolshammer', 'TrashDeleteBin', 'UserProfile2', 'VolumeFull', 'Warningmark', 'WatchAppleWatch', 'Watchclock', 'Watchclocktime1', 'Youtube', 'СloudStorage'];
 
-const IconItem = props => {
-  const {
-    iconId,
-    ...extraProps
-  } = props;
-  const icon = icons[iconId];
-  return createElement(icon, { ...extraProps
-  });
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
+var IconItem = function IconItem(props) {
+  var iconId = props.iconId,
+      extraProps = _objectWithoutPropertiesLoose(props, ["iconId"]);
+
+  var icon = icons[iconId];
+  return createElement(icon, _extends({}, extraProps));
 };
 
 export { SvgAlarmclocktime as Alarmclocktime, SvgAnchor as Anchor, SvgArrow as Arrow, SvgArrow2 as Arrow2, SvgArrowForward as ArrowForward, SvgAttachmentLink as AttachmentLink, SvgAttachmentLink5 as AttachmentLink5, SvgBanana as Banana, SvgBasketPack as BasketPack, SvgBatteryEectricity as BatteryEectricity, SvgBeachUmbrella as BeachUmbrella, SvgBellNotifications7 as BellNotifications7, SvgBellNotificationsSquare as BellNotificationsSquare, SvgBikebicycle as Bikebicycle, SvgBlackboardchart as Blackboardchart, SvgBoardtextchartgraph as Boardtextchartgraph, SvgBookOpen as BookOpen, SvgBookmarkslabeltag as Bookmarkslabeltag, SvgBroom as Broom, SvgBulletListText2 as BulletListText2, SvgCakepiece as Cakepiece, SvgCalendarSchedule as CalendarSchedule, SvgCalendarSchedule9 as CalendarSchedule9, SvgCameraPhoto as CameraPhoto, SvgCat as Cat, SvgChatMessagesBubble9 as ChatMessagesBubble9, SvgChecklistTasksChechmarkSquare as ChecklistTasksChechmarkSquare, SvgCheckmarkdonecheck5 as Checkmarkdonecheck5, SvgChefGearHat as ChefGearHat, SvgCoffeecup as Coffeecup, SvgCompassMap as CompassMap, SvgCryptoCurrency22 as CryptoCurrency22, SvgCursorSelectHand3 as CursorSelectHand3, SvgDashboardround as Dashboardround, SvgDeliveryTruckFast as DeliveryTruckFast, SvgDirectionArrow as DirectionArrow, SvgDirectionArrowRoad as DirectionArrowRoad, SvgDocumentContentNotesPlanner as DocumentContentNotesPlanner, SvgDollar2 as Dollar2, SvgDotsMenu as DotsMenu, SvgDressFashionWedding as DressFashionWedding, SvgEarthHomeWorld22 as EarthHomeWorld22, SvgFileImport as FileImport, SvgFilterSortAZ1 as FilterSortAZ1, SvgFilterSortCircle1 as FilterSortCircle1, SvgFlag1 as Flag1, SvgFlashlight as Flashlight, SvgFolderGroup5 as FolderGroup5, SvgGiftBox1 as GiftBox1, SvgGridLayout as GridLayout, SvgGridLayout14 as GridLayout14, SvgGridLayout17 as GridLayout17, SvgGroupUser1 as GroupUser1, SvgHashtagTrends as HashtagTrends, SvgHeartbeat2 as Heartbeat2, SvgHeartfavorite as Heartfavorite, SvgHexagonube as HexagonСube, SvgHierarchy4 as Hierarchy4, SvgHorntrumpet as Horntrumpet, SvgHospitalboardsquare as Hospitalboardsquare, SvgHotelBuilding as HotelBuilding, IconItem, SvgJacket as Jacket, SvgKey5 as Key5, SvgLampspark as Lampspark, SvgLegalfrictiontalkusers as Legalfrictiontalkusers, SvgLegofigurehead as Legofigurehead, SvgLighthouse as Lighthouse, SvgLinkAttachmentSquare as LinkAttachmentSquare, SvgLoading as Loading, SvgLock8 as Lock8, SvgLtesignal as Ltesignal, SvgMagicwand as Magicwand, SvgMapLocationCheckmark as MapLocationCheckmark, SvgMarkerpin2 as Markerpin2, SvgMedalPrizeReward as MedalPrizeReward, SvgMedicalcross1 as Medicalcross1, SvgMessagesChat5 as MessagesChat5, SvgMicrophonemicrec as Microphonemicrec, SvgMoney as Money, SvgMoneyEuro as MoneyEuro, SvgNote1 as Note1, SvgNotebookCheckmark as NotebookCheckmark, SvgPaintingpalette as Paintingpalette, SvgPatch as Patch, SvgPenEdit as PenEdit, SvgPenedit17 as Penedit17, SvgPinbig as Pinbig, SvgPinlocation as Pinlocation, SvgPlane as Plane, SvgPlanetsaturn as Planetsaturn, SvgPositiontarget as Positiontarget, SvgPromotionRocket as PromotionRocket, SvgPuzzle1 as Puzzle1, SvgQuestionCircle as QuestionCircle, SvgRIng as RIng, SvgRecicle1 as Recicle1, SvgRibbontie as Ribbontie, SvgScaleToolMove as ScaleToolMove, SvgSeafoodfish as Seafoodfish, SvgSearch1 as Search1, SvgSearchLoupe as SearchLoupe, SvgSearchLoupeGraphTrafficConversion as SearchLoupeGraphTrafficConversion, SvgSearchloup1 as Searchloup1, SvgSearchradarlocation1 as Searchradarlocation1, SvgServerDatabasesExport as ServerDatabasesExport, SvgSetting3 as Setting3, SvgSettings1 as Settings1, SvgSettingsRound as SettingsRound, SvgShareArrowSquare1 as ShareArrowSquare1, SvgSignal1 as Signal1, SvgSneakers as Sneakers, SvgSnow as Snow, SvgSofaChair as SofaChair, SvgSpacestars as Spacestars, SvgSpaceufospacealiens as Spaceufospacealiens, SvgSpeeddashboard as Speeddashboard, SvgStarFavorite as StarFavorite, SvgStarFavoriteBookmarkSquare as StarFavoriteBookmarkSquare, SvgStore as Store, SvgSunSeaSunrise as SunSeaSunrise, SvgTargetgoal as Targetgoal, SvgTelescope as Telescope, SvgTemperature as Temperature, SvgThumbsUpLikeSquare as ThumbsUpLikeSquare, SvgToolshammer as Toolshammer, SvgTrashDeleteBin as TrashDeleteBin, SvgUserProfile2 as UserProfile2, SvgVolumeFull as VolumeFull, SvgWarningmark as Warningmark, SvgWatchAppleWatch as WatchAppleWatch, SvgWatchclock as Watchclock, SvgWatchclocktime1 as Watchclocktime1, SvgYoutube as Youtube, iconsList, SvgLoudStorage as СloudStorage };
