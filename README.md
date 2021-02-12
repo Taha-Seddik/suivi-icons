@@ -10,7 +10,7 @@
 npm install --save suivi-icons
 ```
 
-## Usage Example
+## Import usage example
 
 ```tsx
 import { StarFavorite } from 'suivi-icons'
@@ -18,6 +18,19 @@ const Example:React.FC = () => {
   return (
     ....
     <StarFavorite />
+    ...
+    )
+}
+```
+
+## Dynamic usage example ( with string iconId)
+
+```tsx
+import { IconItem } from 'suivi-icons'
+const Example:React.FC = () => {
+  return (
+    ....
+    <IconItem iconId="..." />
     ...
     )
 }
