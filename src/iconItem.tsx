@@ -5,7 +5,10 @@ interface IProps {
   iconId: string
 }
 
-export const IconItem: React.FC<IProps> = (props) => {
+export const IconItem: React.FC<IProps & React.SVGProps<SVGSVGElement>> = (
+  props
+) => {
   const { iconId, ...extraProps } = props
-  return React.cloneElement(icons[iconId], { ...extraProps })
+  const icon = icons[iconId]
+  return React.createElement(icon, { ...extraProps })
 }

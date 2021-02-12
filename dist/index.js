@@ -3364,7 +3364,8 @@ var IconItem = function IconItem(props) {
   var iconId = props.iconId,
       extraProps = _objectWithoutPropertiesLoose(props, ["iconId"]);
 
-  return React.cloneElement(icons[iconId], _extends({}, extraProps));
+  var icon = icons[iconId];
+  return React.createElement(icon, _extends({}, extraProps));
 };
 
 exports.Alarmclocktime = SvgAlarmclocktime;
