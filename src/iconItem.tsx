@@ -1,8 +1,10 @@
 import * as React from 'react'
 import * as icons from './icons'
+// eslint-disable-next-line no-unused-vars
+import { iconsType } from './iconsList'
 
 interface IProps {
-  iconId: string
+  iconId: iconsType
 }
 
 export const IconItem: React.FC<IProps & React.SVGProps<SVGSVGElement>> = (

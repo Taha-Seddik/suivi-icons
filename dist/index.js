@@ -3327,6 +3327,8 @@ var icons = {
   СloudStorage: SvgLoudStorage
 };
 
+var iconsList = ['Alarmclocktime', 'Anchor', 'Arrow2', 'Arrow', 'ArrowForward', 'AttachmentLink5', 'AttachmentLink', 'Banana', 'BasketPack', 'BatteryEectricity', 'BeachUmbrella', 'BellNotificationsSquare', 'BellNotifications7', 'Bikebicycle', 'Blackboardchart', 'Boardtextchartgraph', 'Bookmarkslabeltag', 'BookOpen', 'Broom', 'BulletListText2', 'Cakepiece', 'CalendarSchedule9', 'CalendarSchedule', 'CameraPhoto', 'Cat', 'ChatMessagesBubble9', 'ChecklistTasksChechmarkSquare', 'Checkmarkdonecheck5', 'ChefGearHat', 'Coffeecup', 'CompassMap', 'CryptoCurrency22', 'CursorSelectHand3', 'Dashboardround', 'DeliveryTruckFast', 'DirectionArrow', 'DirectionArrowRoad', 'DocumentContentNotesPlanner', 'Dollar2', 'DotsMenu', 'DressFashionWedding', 'EarthHomeWorld22', 'FileImport', 'FilterSortAZ1', 'FilterSortCircle1', 'Flag1', 'Flashlight', 'FolderGroup5', 'GiftBox1', 'GridLayout14', 'GridLayout17', 'GridLayout', 'GroupUser1', 'HashtagTrends', 'Heartbeat2', 'Heartfavorite', 'HexagonСube', 'Hierarchy4', 'Horntrumpet', 'Hospitalboardsquare', 'HotelBuilding', 'Jacket', 'Key5', 'Lampspark', 'Legalfrictiontalkusers', 'Legofigurehead', 'Lighthouse', 'LinkAttachmentSquare', 'Loading', 'Lock8', 'Ltesignal', 'Magicwand', 'MapLocationCheckmark', 'Markerpin2', 'MedalPrizeReward', 'Medicalcross1', 'MessagesChat5', 'Microphonemicrec', 'Money', 'MoneyEuro', 'Note1', 'NotebookCheckmark', 'Paintingpalette', 'Patch', 'PenEdit', 'Penedit17', 'Pinbig', 'Pinlocation', 'Plane', 'Planetsaturn', 'Positiontarget', 'PromotionRocket', 'Puzzle1', 'QuestionCircle', 'Recicle1', 'Ribbontie', 'RIng', 'ScaleToolMove', 'Seafoodfish', 'SearchLoupe', 'Search1', 'Searchloup1', 'SearchLoupeGraphTrafficConversion', 'Searchradarlocation1', 'ServerDatabasesExport', 'Setting3', 'SettingsRound', 'Settings1', 'ShareArrowSquare1', 'Signal1', 'Sneakers', 'Snow', 'SofaChair', 'Spacestars', 'Spaceufospacealiens', 'Speeddashboard', 'StarFavoriteBookmarkSquare', 'StarFavorite', 'Store', 'SunSeaSunrise', 'Targetgoal', 'Telescope', 'Temperature', 'ThumbsUpLikeSquare', 'Toolshammer', 'TrashDeleteBin', 'UserProfile2', 'VolumeFull', 'Warningmark', 'WatchAppleWatch', 'Watchclock', 'Watchclocktime1', 'Youtube', 'СloudStorage'];
+
 function _extends() {
   _extends = Object.assign || function (target) {
     for (var i = 1; i < arguments.length; i++) {
@@ -3502,5 +3504,6 @@ exports.WatchAppleWatch = SvgWatchAppleWatch;
 exports.Watchclock = SvgWatchclock;
 exports.Watchclocktime1 = SvgWatchclocktime1;
 exports.Youtube = SvgYoutube;
+exports.iconsList = iconsList;
 exports.СloudStorage = SvgLoudStorage;
 //# sourceMappingURL=index.js.map

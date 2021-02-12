@@ -1,0 +1,8 @@
+How to make iconsList
+Idea:
+Extracted as object using regex than take his keys
+Steps:
+1- export.* as -> ''
+2- \}.* -> :"",
+3- ' -> ,
+4- than Object.keys
