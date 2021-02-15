@@ -508,30 +508,6 @@ function SvgCalendarSchedule9(props) {
   })));
 }
 
-function SvgCalendarSchedule(props) {
-  return React.createElement("svg", Object.assign({
-    viewBox: '0 0 24 24',
-    xmlns: 'http://www.w3.org/2000/svg',
-    width: '1em',
-    height: '1em'
-  }, props), React.createElement("g", {
-    strokeLinecap: 'round',
-    strokeWidth: 1.5,
-    stroke: 'currentColor',
-    fill: 'none',
-    strokeLinejoin: 'round'
-  }, React.createElement("path", {
-    d: 'M14.673 21H6h0a3 3 0 01-3-3s0 0 0 0V6h0a3 3 0 013-3h12a3 3 0 013 3v8.672'
-  }), React.createElement("path", {
-    d: 'M17.5 13h0a4.5 4.5 0 11-4.5 4.5h0a4.5 4.5 0 014.5-4.5M21 8H3'
-  }), React.createElement("path", {
-    d: 'M19 16.75l-1.874 1.875L16 17.5M13.749 11.45h0a.049.049 0 10.049.049s0 0 0 0v0a.049.049 0 00-.049-.049M10.249 11.45h0a.048.048 0 00-.048.049h0a.049.049 0 10.048-.049M6.749 11.45h0a.048.048 0 00-.049.05h0a.049.049 0 10.048-.049M10.249 14.45h0a.048.048 0 00-.048.049h0a.049.049 0 10.048-.049M6.749 14.45h0a.048.048 0 00-.049.05h0a.049.049 0 10.048-.049M10.249 17.451h0a.048.048 0 00-.048.049h0a.049.049 0 10.048-.049M6.749 17.451h0a.048.048 0 00-.049.049h0a.049.049 0 10.048-.049'
-  })), React.createElement("path", {
-    fill: 'none',
-    d: 'M0 0h24v24H0z'
-  }));
-}
-
 function SvgCameraPhoto(props) {
   return React.createElement("svg", Object.assign({
     viewBox: '0 0 24 24',
@@ -3038,6 +3014,57 @@ function SvgUserProfile2(props) {
   }));
 }
 
+function SvgUserProfileAdd1(props) {
+  return React.createElement("svg", Object.assign({
+    viewBox: '0 0 24 24',
+    xmlns: 'http://www.w3.org/2000/svg',
+    xmlnsXlink: 'http://www.w3.org/1999/xlink',
+    width: '1em',
+    height: '1em'
+  }, props), React.createElement("defs", null, React.createElement("path", {
+    d: 'M0 0h24v24H0z',
+    id: 'UserProfileAdd1_svg__a'
+  })), React.createElement("g", {
+    fill: 'none'
+  }, React.createElement("use", {
+    xlinkHref: '#UserProfileAdd1_svg__a'
+  }), React.createElement("path", {
+    stroke: 'currentColor',
+    strokeLinecap: 'round',
+    strokeLinejoin: 'round',
+    strokeWidth: 1.5,
+    d: 'M14.817 4.167A3.984 3.984 0 119.183 9.8a3.984 3.984 0 015.634-5.634M12 14.008c4.554 0 9 1.967 9 4.992v1a1 1 0 01-1 1H4a1 1 0 01-1-1v-1c0-3.026 4.446-4.992 9-4.992'
+  }), React.createElement("use", {
+    xlinkHref: '#UserProfileAdd1_svg__a'
+  })));
+}
+
+function SvgUserProfileAdd2(props) {
+  return React.createElement("svg", Object.assign({
+    viewBox: '0 0 24 24',
+    xmlns: 'http://www.w3.org/2000/svg',
+    width: '1em',
+    height: '1em'
+  }, props), React.createElement("g", {
+    strokeLinecap: 'round',
+    strokeWidth: 1.5,
+    stroke: 'currentColor',
+    fill: 'none',
+    strokeLinejoin: 'round'
+  }, React.createElement("path", {
+    d: 'M7.5 3v3M16.5 3v3M3 9.5h18'
+  }), React.createElement("rect", {
+    width: 18,
+    height: 16.5,
+    x: 3,
+    y: 4.5,
+    rx: 3
+  })), React.createElement("path", {
+    fill: 'none',
+    d: 'M0 0h24v24H0z'
+  }));
+}
+
 function SvgVolumeFull(props) {
   return React.createElement("svg", Object.assign({
     viewBox: '0 0 24 24',
@@ -3213,7 +3240,6 @@ var icons = {
   BulletListText2: SvgBulletListText2,
   Cakepiece: SvgCakepiece,
   CalendarSchedule9: SvgCalendarSchedule9,
-  CalendarSchedule: SvgCalendarSchedule,
   CameraPhoto: SvgCameraPhoto,
   Cat: SvgCat,
   ChatMessagesBubble9: SvgChatMessagesBubble9,
@@ -3318,6 +3344,8 @@ var icons = {
   Toolshammer: SvgToolshammer,
   TrashDeleteBin: SvgTrashDeleteBin,
   UserProfile2: SvgUserProfile2,
+  UserProfileAdd1: SvgUserProfileAdd1,
+  UserProfileAdd2: SvgUserProfileAdd2,
   VolumeFull: SvgVolumeFull,
   Warningmark: SvgWarningmark,
   WatchAppleWatch: SvgWatchAppleWatch,
@@ -3327,7 +3355,7 @@ var icons = {
   СloudStorage: SvgLoudStorage
 };
 
-var iconsList = ['Alarmclocktime', 'Anchor', 'Arrow2', 'Arrow', 'ArrowForward', 'AttachmentLink5', 'AttachmentLink', 'Banana', 'BasketPack', 'BatteryEectricity', 'BeachUmbrella', 'BellNotificationsSquare', 'BellNotifications7', 'Bikebicycle', 'Blackboardchart', 'Boardtextchartgraph', 'Bookmarkslabeltag', 'BookOpen', 'Broom', 'BulletListText2', 'Cakepiece', 'CalendarSchedule9', 'CalendarSchedule', 'CameraPhoto', 'Cat', 'ChatMessagesBubble9', 'ChecklistTasksChechmarkSquare', 'Checkmarkdonecheck5', 'ChefGearHat', 'Coffeecup', 'CompassMap', 'CryptoCurrency22', 'CursorSelectHand3', 'Dashboardround', 'DeliveryTruckFast', 'DirectionArrow', 'DirectionArrowRoad', 'DocumentContentNotesPlanner', 'Dollar2', 'DotsMenu', 'DressFashionWedding', 'EarthHomeWorld22', 'FileImport', 'FilterSortAZ1', 'FilterSortCircle1', 'Flag1', 'Flashlight', 'FolderGroup5', 'GiftBox1', 'GridLayout14', 'GridLayout17', 'GridLayout', 'GroupUser1', 'HashtagTrends', 'Heartbeat2', 'Heartfavorite', 'HexagonСube', 'Hierarchy4', 'Horntrumpet', 'Hospitalboardsquare', 'HotelBuilding', 'Jacket', 'Key5', 'Lampspark', 'Legalfrictiontalkusers', 'Legofigurehead', 'Lighthouse', 'LinkAttachmentSquare', 'Loading', 'Lock8', 'Ltesignal', 'Magicwand', 'MapLocationCheckmark', 'Markerpin2', 'MedalPrizeReward', 'Medicalcross1', 'MessagesChat5', 'Microphonemicrec', 'Money', 'MoneyEuro', 'Note1', 'NotebookCheckmark', 'Paintingpalette', 'Patch', 'PenEdit', 'Penedit17', 'Pinbig', 'Pinlocation', 'Plane', 'Planetsaturn', 'Positiontarget', 'PromotionRocket', 'Puzzle1', 'QuestionCircle', 'Recicle1', 'Ribbontie', 'RIng', 'ScaleToolMove', 'Seafoodfish', 'SearchLoupe', 'Search1', 'Searchloup1', 'SearchLoupeGraphTrafficConversion', 'Searchradarlocation1', 'ServerDatabasesExport', 'Setting3', 'SettingsRound', 'Settings1', 'ShareArrowSquare1', 'Signal1', 'Sneakers', 'Snow', 'SofaChair', 'Spacestars', 'Spaceufospacealiens', 'Speeddashboard', 'StarFavoriteBookmarkSquare', 'StarFavorite', 'Store', 'SunSeaSunrise', 'Targetgoal', 'Telescope', 'Temperature', 'ThumbsUpLikeSquare', 'Toolshammer', 'TrashDeleteBin', 'UserProfile2', 'VolumeFull', 'Warningmark', 'WatchAppleWatch', 'Watchclock', 'Watchclocktime1', 'Youtube', 'СloudStorage'];
+var iconsList = ['Alarmclocktime', 'Anchor', 'Arrow2', 'Arrow', 'ArrowForward', 'AttachmentLink5', 'AttachmentLink', 'Banana', 'BasketPack', 'BatteryEectricity', 'BeachUmbrella', 'BellNotificationsSquare', 'BellNotifications7', 'Bikebicycle', 'Blackboardchart', 'Boardtextchartgraph', 'Bookmarkslabeltag', 'BookOpen', 'Broom', 'BulletListText2', 'Cakepiece', 'CalendarSchedule9', 'CameraPhoto', 'Cat', 'ChatMessagesBubble9', 'ChecklistTasksChechmarkSquare', 'Checkmarkdonecheck5', 'ChefGearHat', 'Coffeecup', 'CompassMap', 'CryptoCurrency22', 'CursorSelectHand3', 'Dashboardround', 'DeliveryTruckFast', 'DirectionArrow', 'DirectionArrowRoad', 'DocumentContentNotesPlanner', 'Dollar2', 'DotsMenu', 'DressFashionWedding', 'EarthHomeWorld22', 'FileImport', 'FilterSortAZ1', 'FilterSortCircle1', 'Flag1', 'Flashlight', 'FolderGroup5', 'GiftBox1', 'GridLayout14', 'GridLayout17', 'GridLayout', 'GroupUser1', 'HashtagTrends', 'Heartbeat2', 'Heartfavorite', 'HexagonСube', 'Hierarchy4', 'Horntrumpet', 'Hospitalboardsquare', 'HotelBuilding', 'Jacket', 'Key5', 'Lampspark', 'Legalfrictiontalkusers', 'Legofigurehead', 'Lighthouse', 'LinkAttachmentSquare', 'Loading', 'Lock8', 'Ltesignal', 'Magicwand', 'MapLocationCheckmark', 'Markerpin2', 'MedalPrizeReward', 'Medicalcross1', 'MessagesChat5', 'Microphonemicrec', 'Money', 'MoneyEuro', 'Note1', 'NotebookCheckmark', 'Paintingpalette', 'Patch', 'PenEdit', 'Penedit17', 'Pinbig', 'Pinlocation', 'Plane', 'Planetsaturn', 'Positiontarget', 'PromotionRocket', 'Puzzle1', 'QuestionCircle', 'Recicle1', 'Ribbontie', 'RIng', 'ScaleToolMove', 'Seafoodfish', 'SearchLoupe', 'Search1', 'Searchloup1', 'SearchLoupeGraphTrafficConversion', 'Searchradarlocation1', 'ServerDatabasesExport', 'Setting3', 'SettingsRound', 'Settings1', 'ShareArrowSquare1', 'Signal1', 'Sneakers', 'Snow', 'SofaChair', 'Spacestars', 'Spaceufospacealiens', 'Speeddashboard', 'StarFavoriteBookmarkSquare', 'StarFavorite', 'Store', 'SunSeaSunrise', 'Targetgoal', 'Telescope', 'Temperature', 'ThumbsUpLikeSquare', 'Toolshammer', 'TrashDeleteBin', 'UserProfile2', 'UserProfileAdd1', 'UserProfileAdd2', 'VolumeFull', 'Warningmark', 'WatchAppleWatch', 'Watchclock', 'Watchclocktime1', 'Youtube', 'СloudStorage'];
 
 function _extends() {
   _extends = Object.assign || function (target) {
@@ -3391,7 +3419,6 @@ exports.Bookmarkslabeltag = SvgBookmarkslabeltag;
 exports.Broom = SvgBroom;
 exports.BulletListText2 = SvgBulletListText2;
 exports.Cakepiece = SvgCakepiece;
-exports.CalendarSchedule = SvgCalendarSchedule;
 exports.CalendarSchedule9 = SvgCalendarSchedule9;
 exports.CameraPhoto = SvgCameraPhoto;
 exports.Cat = SvgCat;
@@ -3498,6 +3525,8 @@ exports.ThumbsUpLikeSquare = SvgThumbsUpLikeSquare;
 exports.Toolshammer = SvgToolshammer;
 exports.TrashDeleteBin = SvgTrashDeleteBin;
 exports.UserProfile2 = SvgUserProfile2;
+exports.UserProfileAdd1 = SvgUserProfileAdd1;
+exports.UserProfileAdd2 = SvgUserProfileAdd2;
 exports.VolumeFull = SvgVolumeFull;
 exports.Warningmark = SvgWarningmark;
 exports.WatchAppleWatch = SvgWatchAppleWatch;
