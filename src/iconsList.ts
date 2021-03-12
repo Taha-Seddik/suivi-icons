@@ -145,7 +145,8 @@ export const iconsList: readonly string[] = [
   'Watchclock',
   'Watchclocktime1',
   'Youtube',
-  'СloudStorage'
+  'СloudStorage',
+  'PropUrlNavbutton'
 ] as const
 
 export type iconsType = typeof iconsList[number]
