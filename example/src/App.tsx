@@ -31,7 +31,7 @@ const App: React.FC<{}> = () => {
       )
       setIconsNames(newIconsNames)
     } else {
-      setIconsNames(Object.keys(iconsList))
+      setIconsNames(iconsList)
     }
   }
 
