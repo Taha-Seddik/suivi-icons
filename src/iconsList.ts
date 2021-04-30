@@ -153,7 +153,12 @@ export const iconsList: readonly string[] = [
   'WindowZoomOutPlusLoupe',
   'WindowZoomPlusLoupe',
   'TaskAddOwner',
-  'TaskDueDate'
+  'TaskDueDate',
+  'DocumentContent22',
+  'DoneCheck2',
+  'HomeHouseLine',
+  'PenEdit22',
+  'UserProfileAdd'
 ] as const
 
 export type iconsType = typeof iconsList[number]
