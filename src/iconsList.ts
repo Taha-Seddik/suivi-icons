@@ -159,7 +159,16 @@ export const iconsList: readonly string[] = [
   'HomeHouseLine',
   'PenEdit22',
   'UserProfileAdd',
-  'ModalPanel'
+  'ModalPanel',
+  'ViewCalendar',
+  'ViewCard',
+  'ViewDashboard',
+  'ViewForm',
+  'ViewGantt',
+  'ViewMap',
+  'ViewTable',
+  'ViewTimeline',
+  'ViewZones'
 ] as const
 
 export type iconsType = typeof iconsList[number]
