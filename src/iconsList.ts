@@ -171,7 +171,8 @@ export const iconsList: readonly string[] = [
   'ViewZones',
   'FilterSort3',
   'GridLayout20',
-  'UserProfilCircle2'
+  'UserProfilCircle2',
+  'FullScreenArrow'
 ] as const
 
 export type iconsType = typeof iconsList[number]
