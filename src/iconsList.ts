@@ -183,7 +183,15 @@ export const iconsList: readonly string[] = [
   'PrivateBoard',
   'Public',
   'Tenant',
-  'Workspace'
+  'Workspace',
+  'Avatar',
+  'Book',
+  'CopyPasteSelectAddPlus2',
+  'CopyPasteSelectAddPlus',
+  'Logout',
+  'Message',
+  'Share24Px',
+  'UserProfile'
 ] as const
 
 export type iconsType = typeof iconsList[number]

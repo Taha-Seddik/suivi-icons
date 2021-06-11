@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>04 Icons / message</title>
+    <g id="04-Icons-/-message" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="users">
+            <polygon id="Path" points="0 0 16 0 16 16 0 16"></polygon>
+        </g>
+        <g id="checkmark-square">
+            <polygon id="Path" points="0 0 16 0 16 16 0 16"></polygon>
+        </g>
+        <g id="send-sqaure-button.1" opacity="0.5" transform="translate(-2.000000, -2.000000)">
+            <polygon id="Path" points="0 0 20 0 20 20 0 20"></polygon>
+            <g id="Group" stroke-linecap="round" stroke-linejoin="round" transform="translate(2.500000, 2.500000)" stroke="#828B9D" stroke-width="1.2">
+                <path d="M6.09166667,7.975 L6.8375,11.3316667 C6.93,11.75 7.48666667,11.84 7.70666667,11.4725 L11.1816667,5.68083333 C11.3708333,5.365 11.1433333,4.96333333 10.775,4.96333333 L4.225,4.96333333 C3.8025,4.96333333 3.59083333,5.47416667 3.89,5.7725 L6.09166667,7.975 Z" id="Path"></path>
+                <line x1="11.1833333" y1="5.19666667" x2="6.09166667" y2="7.97166667" id="Path"></line>
+                <path d="M15,3.33333333 L15,11.6666667 C15,13.5075 13.5075,15 11.6666667,15 L3.33333333,15 C1.4925,15 0,13.5075 0,11.6666667 L0,3.33333333 C0,1.4925 1.4925,0 3.33333333,0 L11.6666667,0 C13.5075,0 15,1.4925 15,3.33333333 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
