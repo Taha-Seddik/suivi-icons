@@ -194,7 +194,15 @@ export const iconsList: readonly string[] = [
   'UserProfile',
   'DocumentImage',
   'Lock',
-  'Download'
+  'Download',
+  'ArrowLeft',
+  'ArrowRight',
+  'EditPanel',
+  'EyeHidden',
+  'GridGroup',
+  'Pin',
+  'SortAscending',
+  'SortDecending'
 ] as const
 
 export type iconsType = typeof iconsList[number]
