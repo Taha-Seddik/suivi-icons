@@ -202,7 +202,10 @@ export const iconsList: readonly string[] = [
   'GridGroup',
   'Pin',
   'SortAscending',
-  'SortDecending'
+  'SortDecending',
+  'Minus',
+  'MusicFile',
+  'Plus'
 ] as const
 
 export type iconsType = typeof iconsList[number]
