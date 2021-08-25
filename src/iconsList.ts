@@ -205,7 +205,9 @@ export const iconsList: readonly string[] = [
   'SortDecending',
   'Minus',
   'MusicFile',
-  'Plus'
+  'Plus',
+  'Columns',
+  'CalendarSchedule31'
 ] as const
 
 export type iconsType = typeof iconsList[number]
