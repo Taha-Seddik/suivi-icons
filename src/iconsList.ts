@@ -207,7 +207,12 @@ export const iconsList: readonly string[] = [
   'MusicFile',
   'Plus',
   'Columns',
-  'CalendarSchedule31'
+  'CalendarSchedule31',
+  'Duplicate',
+  'Edit',
+  'FileDownload',
+  'SaveAsTemplate',
+  'SendMessage'
 ] as const
 
 export type iconsType = typeof iconsList[number]
