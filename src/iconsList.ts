@@ -212,7 +212,10 @@ export const iconsList: readonly string[] = [
   'Edit',
   'FileDownload',
   'SaveAsTemplate',
-  'SendMessage'
+  'SendMessage',
+  'DocumentsFileExcel',
+  'DocumentsFilePowerPoint2',
+  'DocumentsFileWord'
 ] as const
 
 export type iconsType = typeof iconsList[number]
