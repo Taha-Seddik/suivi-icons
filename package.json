@@ -25,7 +25,7 @@
     "svgr": "svgr -d src/icons svg-icons/ --typescript --icon --replace-attr-values \"#323232=currentColor\"",
     "suivi-cli": "suivi-cli",
     "zouta": "npm run svgr && npm run build && npm run suivi-cli",
-    "routa": "git add * && git commit -m 'zz' && git push"
+    "routa": "git add * && git commit -m 'zz' && git push --all"
   },
   "peerDependencies": {
     "react": "^16.0.0"
