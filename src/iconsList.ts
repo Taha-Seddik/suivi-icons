@@ -223,7 +223,8 @@ export const iconsList: readonly string[] = [
   'NavToLocation',
   'Image',
   'Money2',
-  'TextH2'
+  'TextH2',
+  'Folder'
 ] as const
 
 export type iconsType = typeof iconsList[number]
