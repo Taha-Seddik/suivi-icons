@@ -27,7 +27,7 @@
     "git-prep": "git add * && git commit -m 'zz' && git push --all",
     "lib-prep": "npm run svgr && npm run build && npm run suivi-cli",
     "publish-prep": "npm version patch && npm publish && npm run deploy",
-    "zouta": " npm run lib-prep && npm run git-prep && npm run publish-prep"
+    "zouta": "npm run lib-prep && npm run git-prep && npm run publish-prep"
   },
   "peerDependencies": {
     "react": "^16.0.0"
