@@ -25,7 +25,7 @@
     "svgr": "svgr -d src/icons svg-icons/ --typescript --icon --replace-attr-values \"#323232=currentColor\"",
     "suivi-cli": "suivi-cli",
     "git-prep": "git add * && git commit -m 'zz' && git push --all",
-    "lib-prep": "npm run svgr && npm run build && npm run suivi-cli",
+    "lib-prep": "npm run svgr &&  npm run suivi-cli && npm run build",
     "publish-prep": "npm version patch && npm publish && npm run deploy",
     "zouta": "npm run lib-prep && npm run git-prep && npm run publish-prep"
   },
