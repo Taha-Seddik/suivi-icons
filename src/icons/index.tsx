@@ -188,7 +188,6 @@ export { default as StarFavoriteBookmarkSquare } from './StarFavoriteBookmarkSqu
 export { default as StarFavorite } from './StarFavorite'
 export { default as Store } from './Store'
 export { default as SunSeaSunrise } from './SunSeaSunrise'
-export { default as Tags } from './Tags'
 export { default as Targetgoal } from './Targetgoal'
 export { default as TaskAddOwner } from './TaskAddOwner'
 export { default as TaskDueDate } from './TaskDueDate'
