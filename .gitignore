@@ -1,4 +1,4 @@
 node_modules
 dist
 build
-example\build
+example\build\*
